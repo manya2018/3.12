@@ -1,0 +1,9 @@
+x=int(input())
+def fibMEM(x):
+    A=[0,1]
+    while x==2:
+        a = fibMEM(x-2) + fibMEM(x-1)
+        A.append(a)
+    return a
+print(fibMEM(x))
+
