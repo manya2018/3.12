@@ -1,0 +1,17 @@
+Линейная сложность алгоритма - O(N)
+
+
+
+def fib(n):
+    if n in (1,2):
+        return 1
+    return fib(n-1)+fib(n-2)
+
+print(fib(10))
+print(fib(100000))
+
+
+
+data        operations
+10          10
+100000      100000
