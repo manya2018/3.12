@@ -8,3 +8,5 @@ def fibMEM(x):
         a=A[x-1]
     return a
 print(fibMEM(x))
+
+сложность алгоритма - O(n log(n))
